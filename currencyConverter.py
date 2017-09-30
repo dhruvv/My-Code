@@ -18,12 +18,12 @@ isPoundFrom = IntVar()
 dollarCheck = Checkbutton(text = "Dollar", variable = isDollarFrom, onvalue = 1, offvalue = 0, bg = "#9dc66b")
 rupeeCheck = Checkbutton(text = "Rupee", variable = isRupeeFrom, onvalue = 1, offvalue = 0, bg = "#9dc66b")
 poundCheck = Checkbutton(text = "Pound", variable = isPoundFrom, onvalue = 1, offvalue = 0, bg = "#9dc66b")
-dollarCheck.pack(side = RIGHT)
-rupeeCheck.pack(side = RIGHT)
-poundCheck.pack(side = RIGHT)
+dollarCheck.pack()
+rupeeCheck.pack()
+poundCheck.pack()
 
 tolabel = Label(window, text = "Convert to:", bg = "#9dc66b", fg = "black", font = ("times", 16))
-tolabel.pack(side = BOTTOM)
+tolabel.pack()
 
 
 
