@@ -38,19 +38,4 @@ poundCheck.pack()
 tolabel = Label(window, text = "Convert to:", bg = "#9dc66b", fg = "black", font = ("times", 16))
 tolabel.pack()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 window.mainloop()
