@@ -1,4 +1,4 @@
-# Caesar Cipher program for Python3
+# Caesar Cipher program for Python3 with tkinter GUI
 
 
 from tkinter import *
