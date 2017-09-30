@@ -1,7 +1,20 @@
 # Currency Converter for Python3
 
 from tkinter import *
+from forex.python.converter import CurrencyRates
 
+def GetCurrencyValue() :
+  c = CurrencyRates()
+  if isDollarFrom == 1 :
+    firstCur = 'USD'
+  elif isRupeeFrom == 1 :
+    firstCur = 'INR' 
+  elif isPoundFrom == 1 :
+    firstCur = 'GBP'
+  
+  
+  
+  
 window = Tk()
 window.configure(background = "#9dc66b")
 
